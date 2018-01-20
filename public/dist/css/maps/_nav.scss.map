@@ -1,0 +1,1 @@
+{"version":3,"sources":["_nav.scss"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,wBAAwB;IACxB,gBAAgB;IAChB,WAAW;IACX,YAAY;IACZ,OAAO;IACP,QAAQ;IACR,SAAS;CACZ","file":"../_nav.scss","sourcesContent":["nav {\n    height: 100%;\n    background-color: white;\n    position: fixed;\n    width: 10%;\n    width: 6rem;\n    top: 0;\n    left: 0;\n    right: 0;\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["_reset.scss"],"names":[],"mappings":";AACA;;;IAGI,yBAAyB;CAC5B;;AAED;;;;IAII,iCAAiC;CACpC","file":"../_reset.scss","sourcesContent":["\na,\na:active,\na:focus , .btn:focus,.btn:active, button {\n    outline: none !important;\n}\n\nbody,\na,\na:focus,\na:hover {\n    text-decoration: none !important;\n}\n\n"]}
