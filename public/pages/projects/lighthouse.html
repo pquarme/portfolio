@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <script src="//localhost:35729/livereload.js"></script>
+
     <link rel="stylesheet" href="dist/css/app.css">
 </head>
 
@@ -40,12 +40,12 @@
         </a>
         <ul class="nav nav-dt">
             <li><a href="/">HOME</a></li>
-            <li class="active"><a href="/pages/projects/lighthouse.html">PROJECTS</a></li>
-            <li><a href="/pages/designs/illverse.html">DESIGNS</a></li>
+            <li class="active"><a href="/pages/projects/illverse.html">PROJECTS</a></li>
+            <li><a href="/pages/designs/illverse.html">ARTWORK</a></li>
         </ul>
         <ul class="nav nav-mb">
             <li onclick="showSubNav('project_sub')">PROJECTS</li>
-            <li onclick="showSubNav('designs_sub')">DESIGNS</li>
+            <li onclick="showSubNav('designs_sub')">ARTWORK</li>
         </ul>
         <ul class="social">
             <li><a href="https://www.linkedin.com/in/policarpquarcoo" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -62,6 +62,17 @@
             </div>
         </div>
         <div class="pad-head"></div>
+        <div class="card">
+            <div class="project_picture is_loading">
+                <a href="/pages/projects/illverse.html">
+                    <img src="dist/images/illverse_site.jpg" />
+                </a>
+            </div>
+            <div class="project_name">
+                <h4>ILLVERSE</h4>
+                <p>Music promotion and discovery platform for artists, fans and promoters.</p>
+            </div>
+        </div>
         <div class="card">
             <div class="project_picture active is_loading">
                 <a href="/pages/projects/lighthouse.html">
@@ -122,7 +133,7 @@
         <div class="subnav_head">
             <i class="fa fa-times-circle icon_close" aria-hidden="true" onclick="hideSubNav('designs_sub')"></i>
             <div class="subnav_title">
-                <h1>Designs</h1>
+                <h1>Artwork</h1>
             </div>
         </div>
         <div class="pad-head"></div>
@@ -242,7 +253,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
     <script src="dist/js/app.js"></script>
-    <script src="dist/js/plugins/barba.min.js"></script>
+
 </body>
 
 </html>
