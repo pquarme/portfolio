@@ -48,10 +48,10 @@
             <li onclick="showSubNav('designs_sub')">ARTWORK</li>
         </ul>
         <ul class="social">
-            <li><a href="https://www.linkedin.com/in/policarpquarcoo" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.behance.net/pquarme" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-            <li><a href="https://dribbble.com/pquarme" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-            <li><a href="https://github.com/pquarme" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/policarpquarcoo" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/pquarme" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.behance.net/pquarme" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+          <li><a href="https://dribbble.com/pquarme" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
         </ul>
     </nav>
     <subnav id="project_sub" class="subnav">
@@ -74,6 +74,17 @@
             </div>
         </div>
         <div class="card">
+            <div class="project_picture active is_loading">
+                <a href="/pages/projects/oncinema.html">
+                    <img src="dist/images/oncinema_v2.jpg" />
+                </a>
+            </div>
+            <div class="project_name">
+                <h4>onCINEMA</h4>
+                <p>Top 4 movies in theaters.</p>
+            </div>
+        </div>
+        <div class="card">
             <div class="project_picture is_loading">
                 <a href="/pages/projects/lighthouse.html">
                     <img src="dist/images/lighthouse.jpg" />
@@ -93,28 +104,6 @@
             <div class="project_name">
                 <h4>GIT Issue Tracker</h4>
                 <p>Consuming GitHub API in an easy to use interface.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="project_picture is_loading">
-                <a href="/pages/projects/indie.html">
-                    <img src="dist/images/indieseries.jpg" />
-                </a>
-            </div>
-            <div class="project_name">
-                <h4>IndieSeries TV</h4>
-                <p>Discover new and entertaining web series.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="project_picture active is_loading">
-                <a href="/pages/projects/oncinema.html">
-                    <img src="dist/images/oncinema.jpg" />
-                </a>
-            </div>
-            <div class="project_name">
-                <h4>onCINEMA</h4>
-                <p>Top 4 movies in theaters.</p>
             </div>
         </div>
         <div class="card">
@@ -183,28 +172,39 @@
 
                 <div class="content">
                     <div class="header">
-                        <div class="bg" style="background-image: url('dist/images/projects/oncinema_screen.jpg')"></div>
+                        <div class="bg" style="background-image: url('dist/images/projects/oncinema_v2_screen.jpg')"></div>
                         <div class="name">
                             <h1 class="huge">onCINEMA</h1>
-                            <a target="_blank" href="http://oncinema.herokuapp.com/" class="btn btn_prim_invert">View Project</a>
+                            <a target="_blank" href="https://oncinema.pquar.me" class="btn btn_prim_invert">View Project</a>
                         </div>
                     </div>
                     <div class="description">
                         <div class="text">
-                            <p>
-                                After working on a proof of concept using play framework on my coop at SITO, I decided to develop onCinema, which is a showcase of 4 trending movies on cinema. I'm using tmdb api, angular js and play framework.
+                            <p> An old project from 2014 rewritten using react.js and node-js. I wanted to experiment with react.js
+                              concepts, unit testing and develop a node-js backend.
+                              <p class="repo_link" style="margin-top: 0px">
+                								<i class="fa fa-git" aria-hidden="true"></i><br>
+                								<a href="https://github.com/pquarme/oncinema" target="_blank">
+                                            Code Repository
+                                        </a>
+                							</p>
                             </p>
-                            <h4>Tools</h4>
 
-                            <ul>
-                                <li>Playframework</li>
-                                <li>Angular-js</li>
-                            </ul>
+                            <p class="repo_link" style="margin-top: 70px">
+                                The original (old) project was developed angular-js and play framework to consume a rest service provided
+                                by The Movie Database(TMDB) api.
+                                <span style="display: inline-block; margin-top: 10px;"><b>Link:</b> <br><a href="http://oncinema.herokuapp.com/" target="_blank">Angular-js version</a></span>
+                            </p>
+                        </div>
+
+                        <div class="container pad">
+                            <img src="dist/images/projects/oncinema_v2_screen.jpg" />
+                            <span class="image_desc">react-js version</span>
                         </div>
 
                         <div class="container pad">
                             <img src="dist/images/projects/oncinema_screen.jpg" />
-                            <span class="image_desc">homescreen for oncinema</span>
+                            <span class="image_desc">angular-js version</span>
                         </div>
                     </div>
                     <a class="next_project_link" href="/pages/projects/inque.html">
